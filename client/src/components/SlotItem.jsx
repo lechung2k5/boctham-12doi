@@ -56,12 +56,9 @@ export default function SlotItem({ group, slotIndex, team, isNewlyAssigned }) {
             />
           </div>
 
-          {/* Team Code & Name */}
-          <div className="ml-3 flex items-baseline space-x-2 overflow-hidden">
-            <span className="font-display font-black text-amber-300 text-base tracking-wide uppercase drop-shadow-sm">
-              {team.code}
-            </span>
-            <span className="text-xs font-semibold text-slate-200 truncate max-w-[280px]">
+          {/* Team Full Name */}
+          <div className="ml-3 flex items-center overflow-hidden flex-1">
+            <span className="font-display font-bold text-amber-300 text-[13.5px] tracking-wide uppercase truncate drop-shadow-sm">
               {team.name}
             </span>
           </div>

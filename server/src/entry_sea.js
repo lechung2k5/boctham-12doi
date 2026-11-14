@@ -8,18 +8,18 @@ import { exec } from 'child_process';
 
 // Default 12 teams embedded directly in binary
 const DEFAULT_TEAMS = [
-  { "id": "HDF", "code": "HDF", "name": "HDF FC", "logo": "/logos/HDF.jpg", "group": null, "slot": null, "drawn": false },
-  { "id": "KMF", "code": "KMF", "name": "KMF FC", "logo": "/logos/KMF.jpg", "group": null, "slot": null, "drawn": false },
-  { "id": "KPF", "code": "KPF", "name": "KPF FC", "logo": "/logos/KPF.jpg", "group": null, "slot": null, "drawn": false },
-  { "id": "LMMF", "code": "LMMF", "name": "LMMF FC", "logo": "/logos/LMMF.jpg", "group": null, "slot": null, "drawn": false },
-  { "id": "LPF", "code": "LPF", "name": "LPF FC", "logo": "/logos/LPF.jpg", "group": null, "slot": null, "drawn": false },
-  { "id": "PQF", "code": "PQF", "name": "PQF FC", "logo": "/logos/PQF.jpg", "group": null, "slot": null, "drawn": false },
+  { "id": "HDF", "code": "HDF", "name": "HUDA FC", "logo": "/logos/HDF.jpg", "group": null, "slot": null, "drawn": false },
+  { "id": "KMF", "code": "KMF", "name": "KHMER FC", "logo": "/logos/KMF.jpg", "group": null, "slot": null, "drawn": false },
+  { "id": "KPF", "code": "KPF", "name": "KHẢI PHÁT FC", "logo": "/logos/KPF.jpg", "group": null, "slot": null, "drawn": false },
+  { "id": "LMMF", "code": "LMMF", "name": "TIỆM VÀNG LÂM MINH MẠNH", "logo": "/logos/LMMF.jpg", "group": null, "slot": null, "drawn": false },
+  { "id": "LPF", "code": "LPF", "name": "LỘC PHÁT FC", "logo": "/logos/LPF.jpg", "group": null, "slot": null, "drawn": false },
+  { "id": "PQF", "code": "PQF", "name": "PHÚ QUÝ FC", "logo": "/logos/PQF.jpg", "group": null, "slot": null, "drawn": false },
   { "id": "PUWA", "code": "PUWA", "name": "PUWA FC", "logo": "/logos/PUWA.jpg", "group": null, "slot": null, "drawn": false },
-  { "id": "PVF", "code": "PVF", "name": "PVF FC", "logo": "/logos/PVF.jpg", "group": null, "slot": null, "drawn": false },
-  { "id": "TAF", "code": "TAF", "name": "TAF FC", "logo": "/logos/TAF.jpg", "group": null, "slot": null, "drawn": false },
-  { "id": "TPF", "code": "TPF", "name": "TPF FC", "logo": "/logos/TPF.jpg", "group": null, "slot": null, "drawn": false },
-  { "id": "TTCF", "code": "TTCF", "name": "TTCF FC", "logo": "/logos/TTCF.jpg", "group": null, "slot": null, "drawn": false },
-  { "id": "WFF", "code": "WFF", "name": "WFF FC", "logo": "/logos/WFF.jpg", "group": null, "slot": null, "drawn": false }
+  { "id": "PVF", "code": "PVF", "name": "PHÚ VINH FC", "logo": "/logos/PVF.jpg", "group": null, "slot": null, "drawn": false },
+  { "id": "TAF", "code": "TAF", "name": "THÙY AN FC", "logo": "/logos/TAF.jpg", "group": null, "slot": null, "drawn": false },
+  { "id": "TPF", "code": "TPF", "name": "TRƯỜNG PHÚC FC", "logo": "/logos/TPF.jpg", "group": null, "slot": null, "drawn": false },
+  { "id": "TTCF", "code": "TTCF", "name": "TRÍ THÀNH CNC FC", "logo": "/logos/TTCF.jpg", "group": null, "slot": null, "drawn": false },
+  { "id": "WFF", "code": "WFF", "name": "WESTERN FORD FC", "logo": "/logos/WFF.jpg", "group": null, "slot": null, "drawn": false }
 ];
 
 const INITIAL_GROUPS = {

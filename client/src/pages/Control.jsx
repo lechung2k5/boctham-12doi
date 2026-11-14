@@ -294,17 +294,16 @@ export default function Control() {
                         className="w-full h-full object-cover"
                       />
                     </div>
-                    <div className="overflow-hidden">
-                      <div className="font-display font-black text-sm text-slate-100 flex items-center gap-1.5">
-                        <span>{team.code}</span>
+                    <div className="overflow-hidden flex-1">
+                      <div className="font-display font-bold text-xs text-slate-100 flex items-center justify-between gap-1">
+                        <span className="truncate">{team.name}</span>
                         {team.drawn && (
-                          <span className="text-[10px] px-1.5 py-0.2 rounded bg-amber-500/20 text-amber-300 font-bold">
+                          <span className="text-[10px] px-1.5 py-0.2 rounded bg-amber-500/20 text-amber-300 font-bold flex-shrink-0">
                             {team.group}
                             {team.slot + 1}
                           </span>
                         )}
                       </div>
-                      <p className="text-[11px] text-slate-400 truncate">{team.name}</p>
                     </div>
 
                     {team.drawn && (
@@ -362,8 +361,7 @@ export default function Control() {
                                   className="w-full h-full object-cover"
                                 />
                               </div>
-                              <span className="font-bold text-slate-100 mr-2">{team.code}</span>
-                              <span className="text-slate-400 text-[11px] truncate">
+                              <span className="font-bold text-amber-300 text-xs truncate">
                                 {team.name}
                               </span>
                             </>

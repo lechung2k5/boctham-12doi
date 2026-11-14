@@ -2,7 +2,7 @@
   {
     "id": "HDF",
     "code": "HDF",
-    "name": "HDF FC",
+    "name": "HUDA FC",
     "logo": "/logos/HDF.jpg",
     "group": null,
     "slot": null,
@@ -11,7 +11,7 @@
   {
     "id": "KMF",
     "code": "KMF",
-    "name": "KMF FC",
+    "name": "KHMER FC",
     "logo": "/logos/KMF.jpg",
     "group": null,
     "slot": null,
@@ -20,7 +20,7 @@
   {
     "id": "KPF",
     "code": "KPF",
-    "name": "KPF FC",
+    "name": "KHẢI PHÁT FC",
     "logo": "/logos/KPF.jpg",
     "group": null,
     "slot": null,
@@ -29,7 +29,7 @@
   {
     "id": "LMMF",
     "code": "LMMF",
-    "name": "LMMF FC",
+    "name": "TIỆM VÀNG LÂM MINH MẠNH",
     "logo": "/logos/LMMF.jpg",
     "group": null,
     "slot": null,
@@ -38,7 +38,7 @@
   {
     "id": "LPF",
     "code": "LPF",
-    "name": "LPF FC",
+    "name": "LỘC PHÁT FC",
     "logo": "/logos/LPF.jpg",
     "group": null,
     "slot": null,
@@ -47,7 +47,7 @@
   {
     "id": "PQF",
     "code": "PQF",
-    "name": "PQF FC",
+    "name": "PHÚ QUÝ FC",
     "logo": "/logos/PQF.jpg",
     "group": null,
     "slot": null,
@@ -65,7 +65,7 @@
   {
     "id": "PVF",
     "code": "PVF",
-    "name": "PVF FC",
+    "name": "PHÚ VINH FC",
     "logo": "/logos/PVF.jpg",
     "group": null,
     "slot": null,
@@ -74,7 +74,7 @@
   {
     "id": "TAF",
     "code": "TAF",
-    "name": "TAF FC",
+    "name": "THÙY AN FC",
     "logo": "/logos/TAF.jpg",
     "group": null,
     "slot": null,
@@ -83,7 +83,7 @@
   {
     "id": "TPF",
     "code": "TPF",
-    "name": "TPF FC",
+    "name": "TRƯỜNG PHÚC FC",
     "logo": "/logos/TPF.jpg",
     "group": null,
     "slot": null,
@@ -92,7 +92,7 @@
   {
     "id": "TTCF",
     "code": "TTCF",
-    "name": "TTCF FC",
+    "name": "TRÍ THÀNH CNC FC",
     "logo": "/logos/TTCF.jpg",
     "group": null,
     "slot": null,
@@ -101,11 +101,10 @@
   {
     "id": "WFF",
     "code": "WFF",
-    "name": "WFF FC",
+    "name": "WESTERN FORD FC",
     "logo": "/logos/WFF.jpg",
     "group": null,
     "slot": null,
     "drawn": false
   }
 ]
-

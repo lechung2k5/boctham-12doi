@@ -139,13 +139,10 @@ export default function DrawModalCinematic({ activeDraw, onAnimationComplete }) 
           <div className="absolute -inset-1 rounded-full border border-amber-400/50 animate-spin" style={{ animationDuration: '8s' }} />
         </div>
 
-        {/* Team Code & Full Name */}
-        <h2 className="font-display font-black text-4xl text-amber-300 tracking-wider uppercase drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)]">
-          {team.code}
-        </h2>
-        <p className="mt-1 text-slate-200 font-semibold text-base text-center max-w-[320px]">
+        {/* Team Full Name */}
+        <h2 className="font-display font-black text-3xl sm:text-4xl text-amber-300 tracking-wide uppercase text-center max-w-[440px] drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)] leading-tight">
           {team.name}
-        </p>
+        </h2>
 
         {/* Bottom Status bar */}
         <div className="mt-5 flex items-center space-x-2 text-xs font-bold text-amber-400/90 tracking-wide uppercase">

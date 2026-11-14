@@ -21,7 +21,7 @@ fs.writeFileSync('build-temp/sea-config.json', JSON.stringify({
   disableExperimentalSEAWarning: true
 }, null, 2));
 
-execSync('node --experimental-sea-config build-temp/sea-config.json', { cwd: 'build-temp', stdio: 'inherit' });
+execSync('node --experimental-sea-config sea-config.json', { cwd: 'build-temp', stdio: 'inherit' });
 
 // 4. Inject into executable
 console.log('💉 4/4 Đang inject mã nguồn vào BocTham12Doi.exe...');
