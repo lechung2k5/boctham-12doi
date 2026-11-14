@@ -1,0 +1,11 @@
+node_modules
+client/node_modules
+server/node_modules
+client/dist
+build-temp
+dist-server
+boc_tham_state.json
+server/src/data/state_backup.json
+BocTham12Doi.exe
+.DS_Store
+*.log

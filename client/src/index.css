@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+}
+
+/* GPU Hardware Acceleration Classes for 60fps Broadcast */
+.gpu-accel {
+  will-change: transform, opacity;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+/* Glowing text and borders */
+.text-glow-gold {
+  text-shadow: 0 0 10px rgba(250, 204, 21, 0.7), 0 0 20px rgba(234, 179, 8, 0.4);
+}
+
+.text-glow-blue {
+  text-shadow: 0 0 10px rgba(56, 189, 248, 0.7), 0 0 20px rgba(14, 165, 233, 0.4);
+}
+
+.box-glow-gold {
+  box-shadow: 0 0 15px rgba(250, 204, 21, 0.5), inset 0 0 10px rgba(250, 204, 21, 0.3);
+}
+
+.box-glow-blue {
+  box-shadow: 0 0 15px rgba(56, 189, 248, 0.5), inset 0 0 10px rgba(56, 189, 248, 0.3);
+}
+
+/* Shimmer metallic bar effect */
+.shimmer-badge {
+  position: relative;
+  overflow: hidden;
+}
+
+.shimmer-badge::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    60deg,
+    transparent 20%,
+    rgba(255, 255, 255, 0.35) 50%,
+    transparent 80%
+  );
+  transform: rotate(25deg);
+  animation: shimmerMove 4s infinite ease-in-out;
+}
+
+@keyframes shimmerMove {
+  0% { transform: translateX(-150%) rotate(25deg); }
+  35%, 100% { transform: translateX(150%) rotate(25deg); }
+}
+
+/* Custom Scrollbar for Control Room */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
